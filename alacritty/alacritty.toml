@@ -1,0 +1,6 @@
+[general]
+
+
+[window]
+opacity = 0.3
+padding = { x = 2, y = 2 }
