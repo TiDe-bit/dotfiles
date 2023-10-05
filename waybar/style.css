@@ -30,12 +30,20 @@ tooltip {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 0px;
+    color: @text;
 }
 
 #workspaces button {
+    background: @overlay1;
     padding-left: 10px;
     padding-right: 10px;
-    min-width: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 2px;
+}
+
+#workspaces button * {
+    color: @text;
 }
 
 #workspaces button.focused, #workspaces button.active {
@@ -51,7 +59,7 @@ tooltip {
 }*/
 
 #workspaces button:hover {
-    background: @surface0;
+    background: @blue;
     border-color: @surface0;
 }
 

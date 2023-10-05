@@ -1,7 +1,7 @@
 {
     "layer": "top", 
     "spacing": 4,
-    "modules-left": ["wlr/workspaces"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "clock", "tray"],
     "keyboard-state": {
@@ -104,8 +104,8 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" 
     },
-    "wlr/workspaces": {
-        "format": "{icon}",
+    "hyprland/workspaces": {
+        "format": "{name}",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
         "on-click": "activate"
